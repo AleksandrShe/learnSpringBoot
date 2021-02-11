@@ -26,14 +26,19 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="11ef9018-0245-456b-a93d-275635e329b9">
-        <schema name="pg_catalog" object-types="view, function, table" />
-        <schema name="public" object-types="view, function, table" />
+        <schema name="pg_catalog" object-types="function, table, view" />
+        <schema name="public" object-types="function, table, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="11ef9018-0245-456b-a93d-275635e329b9">
-      <console name="Connection" type="STANDARD" schema="public" session="Main">select * from message</console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from message
+
+select * from user_role
+
+
+select * from usr]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
